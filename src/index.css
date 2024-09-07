@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.marketing{
+  width: 100%;
+  height: 700px;
+  background-color: #7658f8;
+}
+.logo {
+  display: flex;
+  align-items: center; /* Center logo vertically */
+  margin-right: auto; /* Push other items to the right */
+}
+.logo img {
+  height: 40px; /* Adjust based on your logo size */
+}
+Header{
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color:#7658f8;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+.Header-container {
+  width: 100%; /* Full width */
+  max-width: 1600px; /* Max width for larger screens */
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  padding: 0 20px;
+  
+  
+}
+
+ nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 18px;
+}
+.nav ul li:hover{
+  transform: scale(1.45);  
+
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0; /* Remove default margin */
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none !important;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+.nav ul a:hover {
+  transform: scale(1.45);           /* Slightly enlarge the box on hover */
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+button{
+  background-color: #fa9039;
+  padding: 10px;
+  border: 10px ;
+  border-radius: 50px;
+  cursor: pointer ;
+  margin-left:auto;
+  transition: transform 0.2s ease;
+ color: #fff;
+  
+}
+.button:hover{
+  transform: scale(1.45);  
+}
+/*-----------------------------------------------Body------------------*/
+
+
+Body{
+  
+  background-color: #0c0324;
+  width: 100%;
+  
+}
+.marketing{
+  top:auto;
+  
+}
+.textOne {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 1000;
+  font-size: 100px;
+  color: white;
+  margin-left: 90px;
+
+}
+
+.sub-title{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 20;
+  font-size: 20px;
+  width: 80%;
+  color: white;
+  margin-left: 75px;
+  padding: 20px;
+}
+.img2{
+  position: absolute;
+  right: 40px;
+  top: 300px;
+
+}
+.btnTelegram{
+  background-color: #fa9039;
+  margin-left: 100px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  align-items: center;
+  display:flex;
+
+}
+.hp{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 20;
+  font-size: 20px;
+  width: 800px;
+  color: white;
+  margin-left: 75px;
+  padding: 20px;
+  
+
+}
+.hp h2{
+  line-height: 45px;
+}
+.hp p{
+  line-height: 30px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  margin-top: 6%;
+}
+ 
+.btn3{
+  
+  border-radius: 100px;
+  background-color:#7209f4;
+  padding: 40px 50px  ;
+  margin-bottom: 500px;
+  align-items: center;
+  display:flex;
+  border: 30px solid #0c0324;
+  transition: transform 0.2s ease;
+
+}
+
+.btn3:hover {
+  transform: scale(1.45);           /* Slightly enlarge the box on hover */
+}
+/*----------------------------2nd page----------------------------*/
+
+.img4{
+  position: absolute;
+  top: 900px;
+
+
+}
+
+.aboutus{
+  color:#fff;
+  position: absolute;
+  top: 1100px;
+  
+  justify-content: center; 
+  
+  
+}
+.aboutus h1{
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 10;
+  height: 100px;
+  margin-left: 700px;
+  
+}
+.aboutus h4{
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
+  line-height: 30px;
+  margin-left: 700px;
+  
+  
+}
+.aboutus h3{
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
+  font-size: 13px;
+  margin-left: 700px;
+}
+
+.aboutus h5{
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 10;
+  line-height: 50px;
+  margin-left: 700px;
+}
+.aboutus .btn{
+  margin-left: 350px;
+
+
+
+}
+.tick {
+  display: flex;                    
+  align-items: center;                               
+  justify-content: space-between;    
+  margin-left: 680px;  
+   
+}
+
+.box {
+  width: 100px;                     
+  height: 100px;                    /* Set height for each box */
+  display: flex;                    /* Use Flexbox to center content inside the box */
+          
+  justify-content: center;          /* Center content vertically */
+  align-items: center;              /* Center content horizontally */
+  cursor: pointer;                  /* Change cursor to pointer on hover */
+  transition: transform 0.2s ease;  /* Smooth transition for hover effect */
+}
+
+.box:hover {
+  transform: scale(1.25);           /* Slightly enlarge the box on hover */
+}
+
+.box img {
+  max-width: 60%;                   /* Ensure image fits within the box */
+  max-height: 70%;                  /* Ensure image fits within the box */
+  object-fit: cover;                /* Ensures the image covers the box without distortion */
+}
+
+.box span {
+  margin-top: 1px;                  /* Space between the image and text */
+  color: white;                     /* Text color */
+  font-size: 14px;                  /* Font size of the text */
+  text-align: center;               /* Center text alignment */
+}
+
+.featuress{
+ 
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+  flex-direction: row; 
+  border: 1px solid #ffffff;
+  padding: 5.5px 15px;
+  margin: 10px;
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+  border-radius: 100px;
+  align-items: center;
+  
+
+}
+.FOX{
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+  shape-margin: 10px;
+  border-radius: 10px;
+  margin-left: 100px;
+  line-height: 40px;
+  width: 290px;
+  margin-top: 10px;
+}
+.xmarket{
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+  shape-margin: 10px;
+  border-radius: 10px;
+  margin-left: 100px;
+  line-height: 25px;
+  width: 300px;
+  margin-top: 10px;
+}
+.cards{
+  display: flex;                /* Use Flexbox for layout */
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  height: 1px; 
+  margin-left: 200px;
+                 
+
+}
+
+.card{
+  border: 1px solid #14115c;
+  border-radius: 10px;
+  box-shadow: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  max-width: 250px;
+  display: inline-block;
+  color: #fff;
+  font-family: 'kanit',sans-serif;
+  margin-left: 20px;
+  justify-content: center; 
+  transition: transform 0.2s ease;
+
+
+  
+}
+.card:hover {
+  transform: scale(1.05);       /* Slightly enlarge the card on hover */
+}
+.card .t1{
+
+  line-height: 50px;
+  font-size: 15px;
+  
+}
+.card .t2{
+
+  line-height: 20px;
+  font-size: 11px;
+  
+}
+
+
+ 
+@media (max-width: 768px) {
+  .Header-container {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: flex-start; /* Center-align items */
+  }
+  .body{
+    align-items: center;
+  }
+.img2{
+  height: 50px;
+  width: auto;
+}
+  nav ul {
+    flex-direction: column; /* Stack menu items vertically */
+    gap: 10px; /* Reduce gap between items */
+    align-items: center; /* Center-align items */
+  }
+
+  h1 {
+    font-size: 1.0rem; /* Adjust title size for smaller screens */
+  }
+  nav ul button {
+    font-size: 0.875rem; /* Adjust button size */
+    padding: 8px 16px; /* Adjust button padding */
+  }
+  nav ul li {
+    margin: 10px 0;
+}
+
+.marketing .textOne {
+    font-size: 2rem;
+}
+
+.marketing .sub-title {
+    font-size: 1rem;
+}
+
+.features .cards {
+    flex-direction: column;
+}
+
+.features .card {
+    width: 100%;
+}
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.25rem; /* Further adjust title size */
+  }
+  .body{
+    align-items: center;
+  }
+
+
+  nav ul {
+    gap: 5px; 
+  }
+
+  nav ul button {
+    font-size: 0.875rem; 
+    padding: 8px 16px; 
+  }
+}
